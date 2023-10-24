@@ -57,7 +57,7 @@
     opacity: 1;
 }
 
-.prev, .next {
+.up-side, .down-side {
     width: 20px;
     height: 20px;
     margin: 10px 0;
@@ -70,15 +70,15 @@
     z-index: 999;
 }
 
-.prev {
+.up-side {
     top: 0;
 }
 
-.next {
+.down-side {
     bottom: 0;
 }
 
-.prev::after {
+.up-side::after {
     content: '';
     width: 10px;
     height: 10px;
@@ -92,7 +92,7 @@
     transform: translate(-50%) rotate(-45deg);
 }
 
-.next::before {
+.down-side::before {
     content: '';
     width: 10px;
     height: 10px;
