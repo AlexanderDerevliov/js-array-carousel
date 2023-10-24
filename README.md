@@ -2,9 +2,10 @@
 Dato un array contenente una lista di cinque immagini, creare un carosello come nello screenshot.
 In allegato troverete markup con il codice html e css già fatti.
 
+# soluzione #
 # logica #
   - creo un array con dentro le immagini che andrò ad utilizzare
-
+  - dare tag img dinamica
 
 
 

@@ -1,10 +1,14 @@
 
-
 // creo un ARRAY
 const images = ["img/01.jpg", "img/02.jpg", "img/03.jpg", "img/04.jpg", "img/05.jpg"];
 
-let imagesString = "";
-let slideElem = "";
+const up = document.querySelector ("up-side");
+const down = document.querySelector ("down-side");
+
+
+
+let curentImageIndex = 0;
+
 
 //per ogni elemento dell array creo un tag img
 for(let i = 0; i < images.length; i++){
